@@ -4,7 +4,7 @@ MyRecommendations
 Recommendation applications developed using Django, including for the moment just:
 - MyRestaurants
 
-The project is developed following an Agile Behaviour Driven Development approach.
+The project is developed an Agile Behaviour Driven Development approach.
 
 The source code for this project is available from:
 [https://github.com/rogargon/myrecommendations](https://github.com/rogargon/myrecommendations)
@@ -31,7 +31,7 @@ $ cd myrecommendations
 ```
 
 Once in the `myrecommendations` folder, activate the pipenv virtual environment to keep the Python packages
-for your project organised and start by installing Django. Then, create a new Django project:
+for your project organised start by installing Django. Then, create a new Django project:
 
 ```bash
 $ pipenv shell
@@ -52,7 +52,7 @@ DATABASES = {
 }
 ```
 
-Then, back from the root folder of the project, let Django take control of the database by running:
+Then, back from the root of the project, let Django take control of the database by running:
 
 ```bash
 $ python manage.py migrate
